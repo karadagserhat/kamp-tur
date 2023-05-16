@@ -1,0 +1,273 @@
+[
+  {
+    "startLocation": {
+      "description": "Kastamonu",
+      "type": "Point",
+      "coordinates": [33.143898426002856, 41.634212029490506],
+      "address": "Çalkaya, 37770 Pınarbaşı/Kastamonu"
+    },
+    "ratingsAverage": 4.2,
+    "ratingsQuantity": 3,
+    "images": ["tour-1-1.jpg", "tour-1-2.jpg", "tour-1-3.jpg"],
+    "startDates": ["2022-01-19T09:00:00.000Z", "2022-01-20T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "Kastamonu Kanyonları",
+    "duration": 2,
+    "maxGroupSize": 10,
+    "difficulty": "kolay",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 200,
+    "summary": "",
+    "description": "Sabah İstanbul’dan ayrılarak Bolu-Gerede istikametine doğru TEM yoluna giriyoruz. Yolda kahvaltı paketleriniz dağıtılıyor. Gerede'den sonra TEM yolundan ayrılıp Karabük-Safranbolu üzerinden saat 09:30 civarı Horma Kanyonu girişindeki kamp yerimize ulaşıyoruz.\nSabah erken kahvaltının ardından kampımız toplayıp günün programını tamamlamak üzere Pınarbaşı'dan ayrılıyoruz. İlk durağımız Çatak Kanyonu.Çatak Kanyonu Seyir Terası kanyonun en yüksek noktasına yapılmış. Önündeki geniş kanyon manzarası ile sonsuzluğa uzanıyor hissi uyandırıyor.",
+    "imageCover": "tour-1-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2959",
+        "description": "Horma Kanyonu",
+        "type": "Point",
+        "coordinates": [33.143898426002856, 41.634212029490506],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2958",
+        "description": "Çatak Kanyonu",
+        "type": "Point",
+        "coordinates": [33.23560576838559, 41.64882843969456],
+        "day": 2
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Nevşehir",
+      "type": "Point",
+      "coordinates": [34.80513487249634, 38.62006546406157],
+      "address": "50180 Göreme/Nevşehir Merkez/Nevşehir"
+    },
+    "ratingsAverage": 4.8,
+    "ratingsQuantity": 6,
+    "images": ["tour-2-1.jpg", "tour-2-2.jpg", "tour-2-3.jpg"],
+    "startDates": ["2021-10-19T09:00:00.000Z", "2021-10-20T09:00:00.000Z", "2021-10-21T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "Kapadokya Turu",
+    "duration": 3,
+    "maxGroupSize": 15,
+    "difficulty": "orta",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 600,
+    "summary": "",
+    "description": "Kayseri Havalimanı’nda saat 10:00’da buluşuyoruz. Ardından hiç vakit kaybetmeden direkt olarak Kapadokya bölgesine gidiyoruz.İlk durağımız Güvercinlik Vadisi’ne gidiyoruz.\nKızılçukur manzara noktasına gidiyoruz. Yürüyüş süresi aslında 1,5 saat olsa da bu patikada fotoğraf çekmeden yürümek imkansız.\nKahvaltıdan sonra ilk yürüyüşümüzü yaklaşık 2 saat sürecek ve Kapadokya'nın en güzel vadilerinin biri içinde geçecek. Meskendir Vadisi. Tüneller, peri bacaları, kiliseler ve harika manzaralarla dolu bu vadiden çıkmak istemeyebilirsiniz.",
+    "imageCover": "tour-2-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2954",
+        "description": "Güvercinlik Vadisi",
+        "type": "Point",
+        "coordinates": [34.80513487249634, 38.62006546406157],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2953",
+        "description": "Kızılçukur Vadisi",
+        "type": "Point",
+        "coordinates": [34.86223928783937, 38.65331700844643],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2952",
+        "description": "Meskendir Vadisi",
+        "type": "Point",
+        "coordinates": [34.86341282950558, 38.6405456396141],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Rize",
+      "type": "Point",
+      "coordinates": [40.91421904187539, 40.90404252235725],
+      "address": "Kantarlı Köyü Yolu, 53780 Meydanköy/Çamlıhemşin/Rize"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 10,
+    "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
+    "startDates": ["2022-04-19T09:00:00.000Z", "2022-04-20T09:00:00.000Z", "2021-04-21T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c295a",
+    "name": "Doğu Karadeniz Yaylaları",
+    "duration": 3,
+    "maxGroupSize": 13,
+    "difficulty": "zor",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 550,
+    "summary": "",
+    "description": "İlk olarak Pokut Yaylası'na gideceğiz.Hava durumu ve yol koşullara göre uygun araçla çıkacağımız Pokut Yaylası defalarca gazete ve dergilere konu olan, instagram paylaşımlarının vazgeçilmez noktası, 2000 metre yükseklikte muhteşem güzellikte bir yayladır.\nBugün bölgenin özgünlüğünü korumuş yaylalarından biri olan Gito Yaylası'na doğru yola çıkıyoruz.Yaklaşık 40-50 dakikalık bir yolculukla 2050 metre yükseklikteki Gito Yaylası'na varıyoruz. Fırtına Vadisi'ne hakim bir konumdaki Gito'da; Çat Köyü, Badara Mezrası, Altıparmak Dağları ve hatta hava berraksa Gürcistan Dağları manzaramızı oluşturacak.\nKahvaltımızın ardından bölgenin en yüksek 2. dağı olan 3711 metre yüksekliğindeki Verçenik’e doğru yola çıkıyoruz. Fırtına Vadisini oluşturan nehirleri, dereleri kaynağına doğru takip ediyoruz.",
+    "imageCover": "tour-3-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c295c",
+        "description": "Pokut Yaylası",
+        "type": "Point",
+        "coordinates": [41.02198250694351, 40.96274132640071],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295b",
+        "description": "Gito Yaylası",
+        "type": "Point",
+        "coordinates": [40.91421904187539, 40.90404252235725],
+
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295d",
+        "description": "Verçenik Yaylası",
+        "type": "Point",
+        "coordinates": [40.91806512043072, 40.7454534344872],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Yalova",
+      "type": "Point",
+      "coordinates": [29.031013280497667, 40.589976215281574],
+      "address": "Karşıyaka, 77330 Teşvikiye/Çınarcık/Yalova"
+    },
+    "ratingsAverage": 4.0,
+    "ratingsQuantity": 12,
+    "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
+    "startDates": ["2021-11-02T09:00:00.000Z", "2021-11-03T09:00:00.000Z", "2021-11-04T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Yalova Yaylaları",
+    "duration": 3,
+    "maxGroupSize": 18,
+    "difficulty": "kolay",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 250,
+    "summary": "",
+    "description": "Sabah İstanbul’dan ayrıldıktan sonra Eskihisar‘dan Yalova’ya arabalı vapurla geçiyoruz. İlk durağımız köy kahvaltımızı yapmak üzere Teşvikiye Köyü’nde olacak.Ardından tekrar kısa bir araç yolculuğu ile  yaylaya varıyoruz.  Kampı kurduktan sonra ilk yürüyüşümüze başlıyoruz.\nKarlık yaylasına doğru yola koyuluyoruz. Dere kenarındaki ve ağaçlar altındaki yürüyüş yaklaşık 30 dakika sürüyor. Parkur sonunda harika bir manzarayla karşılaşacaksınız.\nSabah kahvaltısı sonrasında Delmece Yaylası’na kadar aracımızla çıkıyoruz. Yaylada kısa fotoğraf molasından sonra önce Dipsiz Göl'e doğru yürüyeceğiz. Daha sonra buradan kamp alanımıza orman içi patikadan iniş yapacağız.",
+    "imageCover": "tour-4-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "description": "Erikli Yaylası",
+        "type": "Point",
+        "coordinates": [29.031013280497667, 40.589976215281574],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Karlık Yaylası",
+        "type": "Point",
+        "coordinates": [28.990069252959408, 40.58167594614418],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "description": "Delmece Yaylası",
+        "type": "Point",
+        "coordinates": [29.006210167003395, 40.55729955156981],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Muğla",
+      "type": "Point",
+      "coordinates": [29.09296553957404, 36.576588890892054],
+      "address": "Kayaköy, 48304 Fethiye/Muğla"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 9,
+    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "startDates": ["2022-05-16T09:00:00.000Z", "2022-05-17T09:00:00.000Z", "2022-05-18T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c295d",
+    "name": "Likya Yolu Yürüyüşü",
+    "duration": 4,
+    "maxGroupSize": 11,
+    "difficulty": "orta",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 450,
+    "summary": "",
+    "description": "Sabah Dalaman Havalimanı’ndaki buluşmanın ardından aracımızla Kayaköy’e (Karmylasoss) gidiyoruz. Likya yolunun başlangıç noktası olan rota kolay ve harika bir ısınma yürüyüşüdür.\nKahvaltının ardından kısa bir transferle Ovacık mevkiine geliyoruz. 15 km’lik yürüyüşümüz Antik Roma yolunu takiben muazzam Babadağ manzarasıyla süslü.\nKahvaltının ardından Kabak Koyu’na doğru yürüyüşümüze başlıyoruz. Fethiye’nin en güzel koylarından olan Kabak Koyu’na yapacağımız yürüyüş yine enfes doğa manzaralarıyla süslü.Aynı zamanda köy hayatından izler de göreceğimiz yürüyüşümüz 3 saatte son bulsa da isteyenlerle vadideki şelaleye devam edebiliriz. Gidiş dönüş 2 saat daha eklenecek bu rota opsiyoneldir. Yürüyüşe katılmak istemeyenler koyun tadını çıkarabilirler.\nSabah kahvaltının ardından valizlerimizi toplayıp otelimizden ayrılıyoruz. 45 dakikalık araç yolculuğumuzun ardından Pınara Antik Kenti'ne varıyoruz. Yolu biraz bozuk olduğu için fazla ziyaretçisi olmayan kent içerdiği yapılar ve görsel güzellikleri ile aslında kaçırılmaması gereken bir yer.",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "Kayaköy",
+        "type": "Point",
+        "coordinates": [29.093137200942838, 36.57661473861753],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295f",
+        "description": "Babadağ",
+        "type": "Point",
+        "coordinates": [29.18504287785997, 36.5289876455365],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295e",
+        "description": "Kabak Koyu",
+        "type": "Point",
+        "coordinates": [29.126203172168083, 36.46187057351946],
+        "day": 3
+      },
+      {
+        "_id": "5c53fa8cf4afda39709c2935",
+        "description": "Pınara Antik Kenti",
+        "type": "Point",
+        "coordinates": [29.280484213146636, 36.49320371782645],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Kars",
+      "type": "Point",
+      "coordinates": [42.575789932063245, 40.32693594798829],
+      "address": "Kazımkarabekir, 36520 Sarıkamış/Kars"
+    },
+    "ratingsAverage": 4.4,
+    "ratingsQuantity": 5,
+    "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
+    "startDates": ["2022-01-08T09:00:00.000Z", "2022-01-09T09:00:00.000Z", "2022-01-10T09:00:00.000Z"],
+    "_id": "5c88fa8cf4afda39709c2966",
+    "name": "Kars'ta Kış Yolculuğu",
+    "duration": 3,
+    "maxGroupSize": 14,
+    "difficulty": "zor",
+    "guides": ["5c8a1e1a2f8fb814b56fa182"],
+    "price": 400,
+    "summary": "",
+    "description": "Sarıkamış’a doğru yola çıkıyoruz. İlk olarak Katerina Köşkü’ne gidiyoruz. 19. yy sonlarında yekpare ağaç kullanılarak inşa edilmiş köşk şu an kullanıma uygun olmasa da sapasağlam ayakta durmakta. Fotoğraf çekmek için de çok uygun.\nKars Kalesine doğru yola koyuluyoruz. Kalenin ana girişinin altında 12 Havariler Kilisesi(Kümbet Camii) ve Evliya Çelebi Camii’sini de ziyarette bulunuyoruz. Kars sokaklarını ve Ruslar’ın inşa ettiği binaları geziyoruz.\nSabah kahvaltının ardından doğunun Efes‘i denen Ani Harabeleri‘ne doğru yola çıkıyoruz. Bu muhteşem şehrin onca yıkıma savaşa ve doğal afetlere dayanan yapılarını görünce harabe lafının biraz abartılı olduğunu düşünebilirsiniz. Ayakta olan binalar yeterince heybetli ve güçlü görünüyorlar.",
+    "imageCover": "tour-6-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c296b",
+        "description": "Sarıkamış ve Katerina Köşkü",
+        "type": "Point",
+        "coordinates": [42.575789932063245, 40.32693594798829],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296a",
+        "description": "Kars Kalesi",
+        "type": "Point",
+        "coordinates": [43.09069129159143, 40.61350436837169],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2969",
+        "description": "Ani Harabeleri",
+        "type": "Point",
+        "coordinates": [43.57294680693083, 40.51117366237116],
+        "day": 3
+      }
+    ]
+  }
+]

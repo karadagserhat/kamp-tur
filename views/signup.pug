@@ -1,0 +1,23 @@
+extends base
+
+block content
+  main.main
+    .login-form 
+      h2.heading-secondary.ma-bt-lg Yeni bir hesap oluşturun
+      form.form.form--signup
+        .form__group
+          label.form__label(for='name') İsim
+          input#name.form__input(type='text', placeholder='isim...', required)
+        .form__group
+          label.form__label(for='email') Email
+          input#email.form__input(type='email', placeholder='email...', required)
+        .form__group.ma-bt-md
+          label.form__label(for='password') Şifre
+          input#password.form__input(type='password', placeholder='••••••••', required, minlength='6')
+        .form__group.ma-bt-md
+          label.form__label(for='passwordConfirm') Şifre (Tekrar)
+          input#passwordConfirm.form__input(type='password', placeholder='••••••••', required, minlength='6')
+
+        .form__group.form--log--reg
+          button.btn.btn--green.form--login__btn Kayıt Ol
+          a.form--login__reg(href='/login') Hesabınız var mı? Giriş yapın.

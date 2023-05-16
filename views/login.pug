@@ -1,0 +1,16 @@
+extends base
+
+block content
+  main.main
+    .login-form
+      h2.heading-secondary.ma-bt-lg Hesabınıza Giriş Yapın
+      form.form.form--login
+        .form__group
+          label.form__label(for='email') Email
+          input#email.form__input(type='email', placeholder='email...', required)
+        .form__group.ma-bt-md
+          label.form__label(for='password') Şifre
+          input#password.form__input(type='password', placeholder='••••••••', required, minlength='6')
+        .form__group.form--log--reg
+          button.btn.btn--green.form--login__btn Giriş
+          a.form--login__reg(href='/signup') Hesabınız yok mu? Yeni kayıt oluşturun.

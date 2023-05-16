@@ -10,9 +10,15 @@ export const displayMap = (locations) => {
   const points = [];
   locations.forEach((loc) => {
     points.push([loc.coordinates[1], loc.coordinates[0]]);
+
     L.marker([loc.coordinates[1], loc.coordinates[0]])
       .addTo(map)
-      .bindPopup(`<p>Day ${loc.day}: ${loc.description}</p>`, { autoClose: false })
+      // .bindPopup(`<p>Day ${loc.day}: ${loc.description}</p>`, { autoClose: false })
+      .bindPopup(`<p>Gün ${loc.day}: ${loc.description}</p>`, {
+        className: 'custom-popup',
+        autoClose: false,
+        closeOnClick: false,
+      })
       .openPopup();
   });
 

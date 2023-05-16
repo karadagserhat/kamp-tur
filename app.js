@@ -43,23 +43,26 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Set security HTTP headers
 // Further HELMET configuration for Security Policy (CSP)
 const scriptSrcUrls = [
-  'http://127.0.0.1:8000/api/v1/users/login',
-  'http://127.0.0.1:8000/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://unpkg.com/',
   'https://*.stripe.com',
   'https://tile.openstreetmap.org',
 ];
 const styleSrcUrls = [
-  'http://127.0.0.1:8000/api/v1/users/login',
-  'http://127.0.0.1:8000/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://*.stripe.com',
   'https://unpkg.com/',
   'https://tile.openstreetmap.org',
   'https://fonts.googleapis.com/',
 ];
 const connectSrcUrls = [
-  'http://127.0.0.1:8000/api/v1/users/login',
-  'http://127.0.0.1:8000/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://*.stripe.com',
   'https://unpkg.com',
   'https://tile.openstreetmap.org',

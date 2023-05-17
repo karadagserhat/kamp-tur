@@ -11,7 +11,12 @@ export const displayMap = (locations) => {
   locations.forEach((loc) => {
     points.push([loc.coordinates[1], loc.coordinates[0]]);
 
-    L.marker([loc.coordinates[1], loc.coordinates[0]])
+    const icon = L.icon({
+      iconUrl: '/img/pin.png',
+      className: 'marker',
+    });
+
+    L.marker([loc.coordinates[1], loc.coordinates[0]], { icon })
       .addTo(map)
       // .bindPopup(`<p>Day ${loc.day}: ${loc.description}</p>`, { autoClose: false })
       .bindPopup(`<p>Gün ${loc.day}: ${loc.description}</p>`, {

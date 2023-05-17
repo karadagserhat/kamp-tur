@@ -30,7 +30,7 @@ exports.getCheckoutSession = catchAsync(async (req, res, next) => {
           product_data: {
             name: `${tour.name}`,
             // description: tour.name,
-            images: [`https://www.natours.dev/img/tours/${tour.imageCover}`],
+            images: [`https://kamp-tur-production.up.railway.app/img/tours/${tour.imageCover}`],
           },
         },
       },

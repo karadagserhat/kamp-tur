@@ -95,7 +95,7 @@ if (bookBtn)
   });
 
 const alertMessage = document.querySelector('body').dataset.alert;
-if (alertMessage) showAlert('success', alertMessage, 8);
+if (alertMessage) showAlert('success', alertMessage, 5);
 
 if (signupForm) {
   signupForm.addEventListener('submit', (e) => {

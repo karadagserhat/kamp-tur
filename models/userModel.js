@@ -2,63 +2,68 @@ const mongoose = require('mongoose');
 const validator = require('validator');
 const bcrypt = require('bcryptjs');
 
-const userSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    trim: true,
-    required: [true, 'Lütfen isminizi giriniz!'],
-    validate: {
-      validator: function (value) {
-        return value !== '';
+const userSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      trim: true,
+      required: [true, 'Lütfen isminizi giriniz!'],
+      validate: {
+        validator: function (value) {
+          return value !== '';
+        },
+        message: 'Kullanıcı isminizi doğru giriniz lütfen!',
       },
-      message: 'Kullanıcı isminizi doğru giriniz lütfen!',
+    },
+    email: {
+      type: String,
+      required: [true, 'Lütfen email adresinizi giriniz!'],
+      unique: true,
+      lowercase: true,
+      validate: [validator.isEmail, 'Lütfen geçerli bir email giriniz!'],
+    },
+    photo: {
+      type: String,
+      default: 'default.jpg',
+    },
+    role: {
+      type: String,
+      enum: ['user', 'guide', 'lead-guide', 'admin'],
+      default: 'user',
+    },
+    password: {
+      type: String,
+      required: [true, 'Lütfen bir şifre giriniz!'],
+      minlength: 6,
+      select: false,
+    },
+    passwordConfirm: {
+      type: String,
+      required: [true, 'Lütfen şifrenizi doğrulayınız!'],
+      validate: {
+        // This only works on CREATE and SAVE!!!
+        validator: function (el) {
+          return el === this.password;
+        },
+        message: 'Şifreler eşleşmiyor!',
+      },
+    },
+    passwordChangedAt: {
+      type: Date,
+      select: false,
+    },
+    passwordResetToken: String,
+    passwordResetExpires: Date,
+    active: {
+      type: Boolean,
+      default: true,
+      select: false,
     },
   },
-  email: {
-    type: String,
-    required: [true, 'Lütfen email adresinizi giriniz!'],
-    unique: true,
-    lowercase: true,
-    validate: [validator.isEmail, 'Lütfen geçerli bir email giriniz!'],
-  },
-  photo: {
-    type: String,
-    default: 'default.jpg',
-  },
-  role: {
-    type: String,
-    enum: ['user', 'guide', 'lead-guide', 'admin'],
-    default: 'user',
-  },
-  password: {
-    type: String,
-    required: [true, 'Lütfen bir şifre giriniz!'],
-    minlength: 6,
-    select: false,
-  },
-  passwordConfirm: {
-    type: String,
-    required: [true, 'Lütfen şifrenizi doğrulayınız!'],
-    validate: {
-      // This only works on CREATE and SAVE!!!
-      validator: function (el) {
-        return el === this.password;
-      },
-      message: 'Şifreler eşleşmiyor!',
-    },
-  },
-  passwordChangedAt: {
-    type: Date,
-    select: false,
-  },
-  passwordResetToken: String,
-  passwordResetExpires: Date,
-  active: {
-    type: Boolean,
-    default: true,
-    select: false,
-  },
-});
+  {
+    versionKey: false,
+  }
+);
 
 userSchema.pre('save', async function (next) {
   // Only run this function if password was actually modified

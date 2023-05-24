@@ -120,9 +120,9 @@ tourSchema.index({ price: 1, ratingsAverage: -1 });
 tourSchema.index({ slug: 1 });
 tourSchema.index({ startLocation: '2dsphere' });
 
-tourSchema.virtual('durationWeeks').get(function () {
-  return this.duration / 7;
-});
+// tourSchema.virtual('durationWeeks').get(function () {
+//   return this.duration / 7;
+// });
 
 // DOCUMENT MIDDLEWARE: runs before .save() and .create()
 tourSchema.pre('save', function (next) {

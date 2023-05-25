@@ -13,7 +13,7 @@ These documents are used for the  [kamp-tur](https://kamp-tur-production.up.rail
 ## 1. Overview
 •	Created a camping app that lets users buy a camp tours. 
 
-•	Architected an Camp API which dramatically improved codebases, making them more DRY, more secure, and more efficient. 
+•	Architected an Camp API which improved codebases, making them more DRY, more secure, and more efficient. 
 
 •	Implemented authentication and authorization using JSON Web Token and Cookie.
 

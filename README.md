@@ -5,7 +5,7 @@ These documents are used for the  [kamp-tur](https://kamp-tur-production.up.rail
 #### Contents
 
 - [Overview](#1-overview)
-- [Authentication](#2-authentication) ( [SignUp](#21-signup) / [Login](#22-login) )
+- [Authentication](#2-authentication) ( [Sign Up](#21-sign-up) / [Login](#22-login) )
 - [Resources](#3-resources)
     - [Users](#31-users)  ( [Get Current User](#311-get-current-user) )
   - [Tours](#32-tours) ( [Get All Tours](#321-get-all-tours) / [Get Tour](#322-get-tour) )

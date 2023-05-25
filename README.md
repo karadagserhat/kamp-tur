@@ -11,9 +11,12 @@ These documents are used for the  [kamp-tur](https://kamp-tur-production.up.rail
   - [Tours](#32-tours) ( [Get All Tours](#321-get-all-tours) / [Get Tour](#322-get-tour) )
 
 ## 1. Overview
-•	Created a camping app that lets users buy a camp tours.  
-•	Architected an Camp API which dramatically improved codebases, making them more DRY, more secure, and more efficient.  
-•	Implemented authentication and authorization using JSON Web Token and Cookie.  
+•	Created a camping app that lets users buy a camp tours. 
+
+•	Architected an Camp API which dramatically improved codebases, making them more DRY, more secure, and more efficient. 
+
+•	Implemented authentication and authorization using JSON Web Token and Cookie.
+
 •	Used tools : Express.js, Mongoose, JWT, Pug Template, Stripe API.  
 
 ## 2. Authentication

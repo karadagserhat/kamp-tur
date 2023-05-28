@@ -43,9 +43,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Set security HTTP headers
 // Further HELMET configuration for Security Policy (CSP)
 const scriptSrcUrls = [
-  'https://kamp-tur.cyclic.app',
-  'https://kamp-tur.cyclic.app/api/v1/users/login',
-  'https://kamp-tur.cyclic.app/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://unpkg.com/',
   'https://bundle.js:*',
   // 'http://127.0.0.1:8000/bundle.js.map',
@@ -53,9 +53,9 @@ const scriptSrcUrls = [
   'https://tile.openstreetmap.org',
 ];
 const styleSrcUrls = [
-  'https://kamp-tur.cyclic.app',
-  'https://kamp-tur.cyclic.app/api/v1/users/login',
-  'https://kamp-tur.cyclic.app/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://*.stripe.com',
   // 'http://127.0.0.1:8000/bundle.js.map',
   'https://bundle.js:*',
@@ -64,9 +64,9 @@ const styleSrcUrls = [
   'https://fonts.googleapis.com/',
 ];
 const connectSrcUrls = [
-  'https://kamp-tur.cyclic.app',
-  'https://kamp-tur.cyclic.app/api/v1/users/login',
-  'https://kamp-tur.cyclic.app/api/v1/users/signup',
+  'https://kamp-tur-production.up.railway.app',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/login',
+  'https://kamp-tur-production.up.railway.app/api/v1/users/signup',
   'https://*.stripe.com',
   // 'http://127.0.0.1:8000/bundle.js.map',
   'https://bundle.js:*',
@@ -86,7 +86,7 @@ app.use(
         "'self'",
         'blob:',
         'https://*.stripe.com',
-        'https://kamp-tur.cyclic.app/',
+        'https://kamp-tur-production.up.railway.app/',
         'https://bundle.js:*',
         // 'http://127.0.0.1:8000/bundle.js.map',
       ],
@@ -98,8 +98,8 @@ app.use(
         'data:',
         'https:',
         'https://*.stripe.com',
-        'https://kamp-tur.cyclic.app/',
-        'https://kamp-tur.cyclic.app/bundle.js.map',
+        'https://kamp-tur-production.up.railway.app/',
+        'https://kamp-tur-production.up.railway.app/bundle.js.map',
         'https://bundle.js:*',
         // 'http://127.0.0.1:8000/bundle.js.map',
       ],

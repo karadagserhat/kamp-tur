@@ -1,6 +1,6 @@
 # Camp API Documentation
 
-These documents are used for the  [kamp-tur](https://kamp-tur-production.up.railway.app/) 
+These documents are used for the  [kamp-tur](https://kamp-tur.cyclic.app/) 
 
 #### Contents
 
@@ -24,7 +24,7 @@ In order to view some routes, you will need an access token. You can acquire an 
 For the protected routes, firstly you should sign up.
 
 ```
-POST https://kamp-tur-production.up.railway.app/api/v1/users/signup
+POST https://kamp-tur.cyclic.app/api/v1/users/signup
 ```
 The first step, you should send json body. Example body:
 
@@ -87,7 +87,7 @@ Possible errors:
 ### 2.2. Login 
 
 ```
-POST https://kamp-tur-production.up.railway.app/api/v1/users/login
+POST https://kamp-tur.cyclic.app/api/v1/users/login
 ```
 The first step, you should send json body. Example body:
 
@@ -141,7 +141,7 @@ The API is RESTful and arranged around resources.  All requests must be made usi
 Returns details of the user who has granted permission to the application.
 
 ```
-GET https://city-api-production.up.railway.app/api/v1/users/me
+GET https://kamp-tur.cyclic.app/api/v1/users/me
 ```
 
 Example request header:
@@ -179,7 +179,7 @@ Possible errors:
 Returns a full list of cities. An example request looks like this:
 
 ```
-GET https://kamp-tur-production.up.railway.app/api/v1/tours
+GET https://kamp-tur.cyclic.app/api/v1/tours
 ```
 
 The response is a list of tours objects. The response array is wrapped in a data envelope. This endpoint will return all tours. Example response:
@@ -281,7 +281,7 @@ Where a Tour object is:
 This endpoint returns a specific city. An example request looks like this:
 
 ```
-GET https://kamp-tur-production.up.railway.app/api/v1/tours/{{tourID}}
+GET https://kamp-tur.cyclic.app/api/v1/tours/{{tourID}}
 ```
 
 Possible errors:

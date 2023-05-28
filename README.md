@@ -5,20 +5,23 @@ These documents are used for the  [kamp-tur](https://kamp-tur.cyclic.app/)
 #### Contents
 
 - [Overview](#1-overview)
-- [Authentication](#2-authentication) ( [SignUp](#21-signup) / [Login](#22-login) )
+- [Authentication](#2-authentication) ( [Sign Up](#21-sign-up) / [Login](#22-login) )
 - [Resources](#3-resources)
     - [Users](#31-users)  ( [Get Current User](#311-get-current-user) )
   - [Tours](#32-tours) ( [Get All Tours](#321-get-all-tours) / [Get Tour](#322-get-tour) )
 
 ## 1. Overview
+•	Created a camping app that lets users buy a camp tours. 
 
+•	Architected an Camp API which improved codebases, making them more DRY, more secure, and more efficient. 
 
+•	Implemented authentication and authorization using JSON Web Token and Cookie.
 
-All requests must be secure, i.e. `https`, not `http`.
+•	Used tools : Express.js, Mongoose, JWT, Pug Template, Stripe API.  
 
 ## 2. Authentication
 
-In order to view some routes, you will need an access token. You can acquire an access token in two ways -> **token based authentication** and **browser based authentication**.
+In order to view some routes, you will need an access token.
 
 ### 2.1. Sign Up
 For the protected routes, firstly you should sign up.
@@ -70,7 +73,7 @@ Where a User object is:
 | --------------|----------|--------------|
 | status  | string       | The status of your request.   |
 | token     | string       | The user's token. This token has a validity of 90 days.  |
-|   _id    | string       | The userId of the user.    |
+|   _id    | string       | The id of the user.    |
 | name   | string  | The user's name.       |
 | email    | string       | The user's email.      |
 | photo  | string       | The user's photo.   |
@@ -81,7 +84,7 @@ Possible errors:
 
 | Error code  | Description |
 | ------|-------|
-| 400 Bad Request | Duplicate fields or invalid input data |
+| 400 Bad Request | Duplicate fields or invalid input data. |
 
 
 ### 2.2. Login 
@@ -141,7 +144,11 @@ The API is RESTful and arranged around resources.  All requests must be made usi
 Returns details of the user who has granted permission to the application.
 
 ```
+<<<<<<< HEAD
 GET https://kamp-tur.cyclic.app/api/v1/users/me
+=======
+GET  https://kamp-tur-production.up.railway.app/api/v1/users/me
+>>>>>>> 3f5a9d707132a0785366da90b6c5dd34dd99b5f2
 ```
 
 Example request header:
@@ -260,7 +267,7 @@ Where a Tour object is:
 | name        | string | The name of tour. Max length 40 characters and Min length 5 characters.  |
 | duration   | number | The duration of tour.    |
 | maxGroupSize  | number | The max group size of tour.    |
-| difficulty        | string | The name of tour. Difficulty is either: easy, medium, difficult   |
+| difficulty        | string | The name of tour. Difficulty is either: kolay, orta, zor.   |
 | ratingsAverage  | number | The ratings average of tour. Between of 1-5 |
 | ratingsQuantity  | number | The ratings quantity of tour.    |
 | price  | number | The price of tour.    |

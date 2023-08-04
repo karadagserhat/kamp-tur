@@ -1,6 +1,6 @@
 # Camp API Documentation
 
-These documents are used for the [kamp-tur](https://kamp-tur-production.up.railway.app/)
+These documents are used for the [kamp-tur](https://kamp-tur-production.up.railway.app/) (Application **suspended**)
 
 #### Contents
 
